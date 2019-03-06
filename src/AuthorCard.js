@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class AuthorCard extends Component {
   render() {
     return (
-      <div>
+      <div className="col-lg-4 col-md-6 col-12">
         {this.props.authors.map(elem => (
           <div className="card">
             <div className="image">

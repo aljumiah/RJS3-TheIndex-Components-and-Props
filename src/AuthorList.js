@@ -7,12 +7,10 @@ class AuthorList extends Component {
         <div className="authors">
           <h3>Authors</h3>
           <div className="row">
-            <div className="col-lg-4 col-md-6 col-12">
-              <AuthorCard
-                key={this.props.authors.first_name}
-                authors={this.props.authors}
-              />
-            </div>
+            <AuthorCard
+              key={this.props.authors.first_name}
+              authors={this.props.authors}
+            />
           </div>
         </div>
       </div>
